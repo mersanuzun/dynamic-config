@@ -1,0 +1,26 @@
+{
+  "name": "@mersanuzun/dynamic-config",
+  "version": "1.0.0",
+  "description": "Watch config changes",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "rollup": "^2.67.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
